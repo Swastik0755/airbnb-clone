@@ -15,7 +15,7 @@ export default function Perks({selected,onChange}) {
 
   return (
     <>
-      <div className='grid gap-2 mt-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-6'>
+      <div className="flex gap-2">
 
 
         <label className='border p-4 flex rounded-2xl gap-2 items-center cursor-pointer'>
