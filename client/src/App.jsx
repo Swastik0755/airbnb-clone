@@ -13,7 +13,9 @@ import PlacePage from "./pages/PlacePage";
 import BookingsPage from "./pages/BookingsPage";
 import BookingPage from "./pages/BookingPage";
 
-axios.defaults.baseURL=process.env;
+require('dotenv').config();
+axios.defaults.baseURL=process.env.SERVER_URL;
+
 axios.defaults.withCredentials = true;
 
 function App() {
