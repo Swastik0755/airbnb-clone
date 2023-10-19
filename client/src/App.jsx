@@ -13,8 +13,8 @@ import PlacePage from "./pages/PlacePage";
 import BookingsPage from "./pages/BookingsPage";
 import BookingPage from "./pages/BookingPage";
 
-require('dotenv').config();
-axios.defaults.baseURL=process.env.SERVER_URL;
+// require('dotenv').config();
+axios.defaults.baseURL="https://backup-8290.onrender.com";
 
 axios.defaults.withCredentials = true;
 
